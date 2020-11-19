@@ -38,3 +38,7 @@ Before using this app in someones twitch chat, please make sure that they are aw
 *Each username must be on its own line in the text file*  
 *Remove any quotes when replacing values in the below command*  
 `node index.js "ChannelName" "TextFileWithNames.txt"`
+
+OR
+
+`node index.js "ChannelName01/ChannelName02/ChannelName03" "TextFileWithNames.txt"`
