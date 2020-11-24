@@ -52,9 +52,9 @@ async function doIt(){
       }while( banQueue.length!=0 );
     }
 
-	if( banQueue.length==0 ){
+    if( banQueue.length==0 ){
       console.log( '\nFinished.' );
       process.exit( 0 );
-	}
+    }
   });
 }
